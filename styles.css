@@ -2,36 +2,48 @@ body{
     background-color: hsl(233, 47%, 7%);
 }
 .first-container{
-        padding: 100px;
-        text-align: left;
-        line-height: 2;
-}
-.headings{
-    background-color:  hsl(244, 38%, 16%);
-    padding: 50px;
-
-}
-.content{
-padding-top: 37px;
-}
-h1{
-    color: hsl(0, 0%, 100%);
-    font-family: Ubuntu;
-    font-weight: 400, 700;
-    
-}
-p{
-    color:  hsla(0, 0%, 100%, 0.75);
-    font-family: Lexend Deca;
-    font-weight: 400;
-}
-h2{
-    color: hsla(0, 0%, 100%, 0.6);
-    
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    text-align: left;
+    line-height: 2;
 }
 b{
-    color: hsl(277, 64%, 61%);
+    color:  hsl(277, 64%, 61%);
+
 }
-.picture{
-    margin-left: -2rem;
+.headings{
+    background-color: hsl(244, 38%, 16%);
+    padding: 50px;
+    
 }
+.content{
+    padding: 18px;
+}
+.headings h1{
+   
+    font-weight: 700;
+    font-family: ubuntu;
+    color: hsl(0, 0%, 100%);
+    
+}
+.headings p{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color:  hsla(0, 0%, 100%, 0.75);
+
+}
+.content h2{
+    font-family: ubuntu;
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+}
+.content p{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color:  hsla(0, 0%, 100%, 0.75);
+
+}
+
+
+
